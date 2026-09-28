@@ -1,0 +1,440 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Sep 18 15:04:40 2026
+# Process ID: 9244
+# Current directory: D:/FPGA_project/main_prj/prj/project_1.runs/synth_1
+# Command line: vivado.exe -log ad9361_test_top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ad9361_test_top.tcl
+# Log file: D:/FPGA_project/main_prj/prj/project_1.runs/synth_1/ad9361_test_top.vds
+# Journal file: D:/FPGA_project/main_prj/prj/project_1.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source ad9361_test_top.tcl -notrace
+Command: synth_design -top ad9361_test_top -part xc7z020clg400-2
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z020'
+INFO: [Device 21-403] Loading part xc7z020clg400-2
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 6452
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1179.312 ; gain = 41.117
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'ad9361_test_top' [D:/FPGA_project/main_prj/rtl/ad9361_test_top.v:1]
+INFO: [Synth 8-6157] synthesizing module 'clk_wiz_0' [D:/FPGA_project/main_prj/prj/project_1.runs/synth_1/.Xil/Vivado-9244-DESKTOP-9IT83RJ/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'clk_wiz_0' (1#1) [D:/FPGA_project/main_prj/prj/project_1.runs/synth_1/.Xil/Vivado-9244-DESKTOP-9IT83RJ/realtime/clk_wiz_0_stub.v:5]
+INFO: [Synth 8-6157] synthesizing module 'ad9361_dev_if' [D:/FPGA_project/main_prj/rtl/ad9361_dev_if .v:2]
+INFO: [Synth 8-6157] synthesizing module 'IBUFDS' [D:/Fpga_tool/Vivado_20.2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:32998]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter DIFF_TERM bound to: TRUE - type: string 
+	Parameter DQS_BIAS bound to: FALSE - type: string 
+	Parameter IBUF_DELAY_VALUE bound to: 0 - type: string 
+	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
+	Parameter IFD_DELAY_VALUE bound to: AUTO - type: string 
+	Parameter IOSTANDARD bound to: LVDS_25 - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IBUFDS' (2#1) [D:/Fpga_tool/Vivado_20.2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:32998]
+INFO: [Synth 8-6157] synthesizing module 'IDDR' [D:/Fpga_tool/Vivado_20.2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:34938]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
+	Parameter INIT_Q1 bound to: 1'b0 
+	Parameter INIT_Q2 bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'IDDR' (3#1) [D:/Fpga_tool/Vivado_20.2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:34938]
+INFO: [Synth 8-6157] synthesizing module 'OBUFDS' [D:/Fpga_tool/Vivado_20.2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:46332]
+	Parameter CAPACITANCE bound to: DONT_CARE - type: string 
+	Parameter IOSTANDARD bound to: DEFAULT - type: string 
+	Parameter SLEW bound to: SLOW - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'OBUFDS' (4#1) [D:/Fpga_tool/Vivado_20.2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:46332]
+INFO: [Synth 8-6157] synthesizing module 'ODDR' [D:/Fpga_tool/Vivado_20.2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:49791]
+	Parameter DDR_CLK_EDGE bound to: SAME_EDGE - type: string 
+	Parameter INIT bound to: 1'b0 
+	Parameter IS_C_INVERTED bound to: 1'b0 
+	Parameter IS_D1_INVERTED bound to: 1'b0 
+	Parameter IS_D2_INVERTED bound to: 1'b0 
+	Parameter SRTYPE bound to: SYNC - type: string 
+INFO: [Synth 8-6155] done synthesizing module 'ODDR' (5#1) [D:/Fpga_tool/Vivado_20.2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:49791]
+INFO: [Synth 8-6157] synthesizing module 'BUFG' [D:/Fpga_tool/Vivado_20.2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'BUFG' (6#1) [D:/Fpga_tool/Vivado_20.2/Vivado/2020.2/scripts/rt/data/unisim_comp.v:1083]
+INFO: [Synth 8-6155] done synthesizing module 'ad9361_dev_if' (7#1) [D:/FPGA_project/main_prj/rtl/ad9361_dev_if .v:2]
+INFO: [Synth 8-6157] synthesizing module 'ad9361_spi' [D:/FPGA_project/main_prj/rtl/ad9361_spi.v:1]
+	Parameter ST_IDLE bound to: 2'b00 
+	Parameter ST_TX_OR_RD bound to: 2'b01 
+	Parameter ST_DONE bound to: 2'b10 
+INFO: [Synth 8-6155] done synthesizing module 'ad9361_spi' (8#1) [D:/FPGA_project/main_prj/rtl/ad9361_spi.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ad9361_init' [D:/FPGA_project/main_prj/rtl/ad9361_init.v:1]
+INFO: [Synth 8-226] default block is never used [D:/FPGA_project/main_prj/rtl/ad9361_init.v:46]
+INFO: [Synth 8-6155] done synthesizing module 'ad9361_init' (9#1) [D:/FPGA_project/main_prj/rtl/ad9361_init.v:1]
+INFO: [Synth 8-6157] synthesizing module 'ad9361_lut' [D:/FPGA_project/main_prj/rtl/ad9361_lut.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'ad9361_lut' (10#1) [D:/FPGA_project/main_prj/rtl/ad9361_lut.v:1]
+INFO: [Synth 8-6157] synthesizing module 'dds' [D:/FPGA_project/main_prj/rtl/dds.v:2]
+INFO: [Synth 8-6157] synthesizing module 'dds_freq' [D:/FPGA_project/main_prj/rtl/dds_freq.v:2]
+	Parameter freq_angle bound to: 24'b000000010000000000000000 
+	Parameter freq bound to: 24'b000000000001110010101100 
+INFO: [Synth 8-6155] done synthesizing module 'dds_freq' (11#1) [D:/FPGA_project/main_prj/rtl/dds_freq.v:2]
+INFO: [Synth 8-6157] synthesizing module 'dds_compiler_0' [D:/FPGA_project/main_prj/prj/project_1.runs/synth_1/.Xil/Vivado-9244-DESKTOP-9IT83RJ/realtime/dds_compiler_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'dds_compiler_0' (12#1) [D:/FPGA_project/main_prj/prj/project_1.runs/synth_1/.Xil/Vivado-9244-DESKTOP-9IT83RJ/realtime/dds_compiler_0_stub.v:6]
+WARNING: [Synth 8-689] width (12) of port connection 'm_axis_data_tdata' does not match port width (16) of module 'dds_compiler_0' [D:/FPGA_project/main_prj/rtl/dds.v:32]
+WARNING: [Synth 8-689] width (12) of port connection 'm_axis_data_tdata' does not match port width (16) of module 'dds_compiler_0' [D:/FPGA_project/main_prj/rtl/dds.v:42]
+INFO: [Synth 8-6155] done synthesizing module 'dds' (13#1) [D:/FPGA_project/main_prj/rtl/dds.v:2]
+INFO: [Synth 8-6157] synthesizing module 'iq_sqrt' [D:/FPGA_project/main_prj/rtl/iq_sqrt.v:1]
+INFO: [Synth 8-6157] synthesizing module 'mult_gen_0' [D:/FPGA_project/main_prj/prj/project_1.runs/synth_1/.Xil/Vivado-9244-DESKTOP-9IT83RJ/realtime/mult_gen_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mult_gen_0' (14#1) [D:/FPGA_project/main_prj/prj/project_1.runs/synth_1/.Xil/Vivado-9244-DESKTOP-9IT83RJ/realtime/mult_gen_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'cordic_0' [D:/FPGA_project/main_prj/prj/project_1.runs/synth_1/.Xil/Vivado-9244-DESKTOP-9IT83RJ/realtime/cordic_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'cordic_0' (15#1) [D:/FPGA_project/main_prj/prj/project_1.runs/synth_1/.Xil/Vivado-9244-DESKTOP-9IT83RJ/realtime/cordic_0_stub.v:6]
+WARNING: [Synth 8-689] width (14) of port connection 'm_axis_dout_tdata' does not match port width (16) of module 'cordic_0' [D:/FPGA_project/main_prj/rtl/iq_sqrt.v:63]
+INFO: [Synth 8-6155] done synthesizing module 'iq_sqrt' (16#1) [D:/FPGA_project/main_prj/rtl/iq_sqrt.v:1]
+INFO: [Synth 8-6157] synthesizing module 'twice_average' [D:/FPGA_project/twice_average/rtl/twice_average.v:1]
+	Parameter DATA_WIDTH bound to: 14 - type: integer 
+	Parameter ACC_WIDTH_1 bound to: 8 - type: integer 
+	Parameter ACC_WIDTH_2 bound to: 2 - type: integer 
+	Parameter ACC_WIDTH_LOG2_1 bound to: 3 - type: integer 
+	Parameter ACC_WIDTH_LOG2_2 bound to: 1 - type: integer 
+	Parameter SUM_WIDTH_1 bound to: 17 - type: integer 
+	Parameter SUM_WIDTH_2 bound to: 15 - type: integer 
+INFO: [Synth 8-6157] synthesizing module 'average' [D:/FPGA_project/twice_average/rtl/average.v:2]
+	Parameter DATA_WIDTH bound to: 14 - type: integer 
+	Parameter ACC_WIDTH bound to: 8 - type: integer 
+	Parameter ACC_WIDTH_LOG2 bound to: 3 - type: integer 
+	Parameter SUM_WIDTH bound to: 17 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'average' (17#1) [D:/FPGA_project/twice_average/rtl/average.v:2]
+INFO: [Synth 8-6157] synthesizing module 'average__parameterized0' [D:/FPGA_project/twice_average/rtl/average.v:2]
+	Parameter DATA_WIDTH bound to: 14 - type: integer 
+	Parameter ACC_WIDTH bound to: 2 - type: integer 
+	Parameter ACC_WIDTH_LOG2 bound to: 1 - type: integer 
+	Parameter SUM_WIDTH bound to: 15 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'average__parameterized0' (17#1) [D:/FPGA_project/twice_average/rtl/average.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'twice_average' (18#1) [D:/FPGA_project/twice_average/rtl/twice_average.v:1]
+WARNING: [Synth 8-4446] all outputs are unconnected for this instance and logic may be removed [D:/FPGA_project/main_prj/rtl/ad9361_test_top.v:314]
+INFO: [Synth 8-6157] synthesizing module 'ila_0' [D:/FPGA_project/main_prj/prj/project_1.runs/synth_1/.Xil/Vivado-9244-DESKTOP-9IT83RJ/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ila_0' (19#1) [D:/FPGA_project/main_prj/prj/project_1.runs/synth_1/.Xil/Vivado-9244-DESKTOP-9IT83RJ/realtime/ila_0_stub.v:6]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_ila_0'. This will prevent further optimization [D:/FPGA_project/main_prj/rtl/ad9361_test_top.v:314]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_iq_sqrt'. This will prevent further optimization [D:/FPGA_project/main_prj/rtl/ad9361_test_top.v:296]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_ad9361_dev_if'. This will prevent further optimization [D:/FPGA_project/main_prj/rtl/ad9361_test_top.v:137]
+INFO: [Synth 8-6071] Mark debug on the nets applies keep_hierarchy on instance 'u_twice_average'. This will prevent further optimization [D:/FPGA_project/main_prj/rtl/ad9361_test_top.v:307]
+INFO: [Synth 8-6155] done synthesizing module 'ad9361_test_top' (20#1) [D:/FPGA_project/main_prj/rtl/ad9361_test_top.v:1]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1251.402 ; gain = 113.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1251.402 ; gain = 113.207
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1251.402 ; gain = 113.207
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1251.402 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 31 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'u_clk_wiz_0'
+Finished Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc] for cell 'u_clk_wiz_0'
+Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'u_ila_0'
+Finished Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/ila_0/ila_0/ila_0_in_context.xdc] for cell 'u_ila_0'
+Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/dds_compiler_0/dds_compiler_0/dds_compiler_0_in_context.xdc] for cell 'u_dds/u_dds_cosine'
+Finished Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/dds_compiler_0/dds_compiler_0/dds_compiler_0_in_context.xdc] for cell 'u_dds/u_dds_cosine'
+Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/dds_compiler_0/dds_compiler_0/dds_compiler_0_in_context.xdc] for cell 'u_dds/u_dds_sine'
+Finished Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/dds_compiler_0/dds_compiler_0/dds_compiler_0_in_context.xdc] for cell 'u_dds/u_dds_sine'
+Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_iq_sqrt/mult_I'
+Finished Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_iq_sqrt/mult_I'
+Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_iq_sqrt/mult_Q'
+Finished Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/mult_gen_0/mult_gen_0/mult_gen_0_in_context.xdc] for cell 'u_iq_sqrt/mult_Q'
+Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/cordic_0/cordic_0/cordic_0_in_context.xdc] for cell 'u_iq_sqrt/u_cordic_0'
+Finished Parsing XDC File [d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/cordic_0/cordic_0/cordic_0_in_context.xdc] for cell 'u_iq_sqrt/u_cordic_0'
+Parsing XDC File [D:/FPGA_project/main_prj/xdc/ad9361_test_top.xdc]
+WARNING: [Constraints 18-619] A clock with name 'sys_clk' already exists, overwriting the previous clock with the same name. [D:/FPGA_project/main_prj/xdc/ad9361_test_top.xdc:2]
+Finished Parsing XDC File [D:/FPGA_project/main_prj/xdc/ad9361_test_top.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/FPGA_project/main_prj/xdc/ad9361_test_top.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/ad9361_test_top_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/ad9361_test_top_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1372.359 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 8 instances
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.005 . Memory (MB): peak = 1372.359 ; gain = 0.000
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'u_iq_sqrt/mult_I' at clock pin 'CLK' is different from the actual clock period '25.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '100.000' specified during out-of-context synthesis of instance 'u_iq_sqrt/mult_Q' at clock pin 'CLK' is different from the actual clock period '25.000', this can lead to different synthesis results.
+WARNING: [Timing 38-316] Clock period '1000.000' specified during out-of-context synthesis of instance 'u_iq_sqrt/u_cordic_0' at clock pin 'aclk' is different from the actual clock period '25.000', this can lead to different synthesis results.
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1376.438 ; gain = 238.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7z020clg400-2
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1376.438 ; gain = 238.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property IO_BUFFER_TYPE = NONE for sys_clk. (constraint file  d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 4).
+Applied set_property CLOCK_BUFFER_TYPE = NONE for sys_clk. (constraint file  d:/FPGA_project/main_prj/prj/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0/clk_wiz_0_in_context.xdc, line 5).
+Applied set_property KEEP_HIERARCHY = SOFT for u_clk_wiz_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_ila_0. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_dds/u_dds_cosine. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_dds/u_dds_sine. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_iq_sqrt/mult_I. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_iq_sqrt/mult_Q. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for u_iq_sqrt/u_cordic_0. (constraint file  auto generated constraint).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:08 . Memory (MB): peak = 1376.438 ; gain = 238.242
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ad9361_spi'
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'ad9361_init'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                 ST_IDLE |                              001 |                               00
+             ST_TX_OR_RD |                              010 |                               01
+                 ST_DONE |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'ad9361_spi'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                  iSTATE |                              000 |                              000
+                 iSTATE5 |                              001 |                              001
+                 iSTATE0 |                              010 |                              010
+                 iSTATE3 |                              011 |                              011
+                 iSTATE4 |                              100 |                              111
+                 iSTATE6 |                              101 |                              100
+                 iSTATE1 |                              110 |                              101
+                 iSTATE2 |                              111 |                              110
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'sequential' in module 'ad9361_init'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1376.438 ; gain = 238.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   27 Bit       Adders := 1     
+	   2 Input   17 Bit       Adders := 1     
+	   2 Input   14 Bit       Adders := 1     
+	   2 Input   13 Bit       Adders := 2     
+	   2 Input    8 Bit       Adders := 2     
+	   2 Input    5 Bit       Adders := 1     
+	   2 Input    3 Bit       Adders := 1     
+	   2 Input    1 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 1     
+	               27 Bit    Registers := 1     
+	               24 Bit    Registers := 1     
+	               19 Bit    Registers := 2     
+	               17 Bit    Registers := 1     
+	               16 Bit    Registers := 1     
+	               14 Bit    Registers := 2     
+	               13 Bit    Registers := 2     
+	               12 Bit    Registers := 15    
+	               10 Bit    Registers := 1     
+	                8 Bit    Registers := 4     
+	                7 Bit    Registers := 1     
+	                6 Bit    Registers := 3     
+	                5 Bit    Registers := 1     
+	                3 Bit    Registers := 1     
+	                2 Bit    Registers := 3     
+	                1 Bit    Registers := 20    
++---Muxes : 
+	   2 Input   32 Bit        Muxes := 1     
+	   8 Input   32 Bit        Muxes := 1     
+	   3 Input   24 Bit        Muxes := 1     
+	2585 Input   19 Bit        Muxes := 1     
+	   2 Input   17 Bit        Muxes := 1     
+	   2 Input   14 Bit        Muxes := 1     
+	   2 Input   13 Bit        Muxes := 2     
+	   2 Input   12 Bit        Muxes := 2     
+	   2 Input    8 Bit        Muxes := 1     
+	   2 Input    6 Bit        Muxes := 4     
+	   2 Input    5 Bit        Muxes := 1     
+	   3 Input    5 Bit        Muxes := 1     
+	   8 Input    3 Bit        Muxes := 2     
+	   2 Input    3 Bit        Muxes := 14    
+	  16 Input    3 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 10    
+	   3 Input    1 Bit        Muxes := 4     
+	  16 Input    1 Bit        Muxes := 2     
+	   8 Input    1 Bit        Muxes := 6     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 220 (col length:60)
+BRAMs: 280 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1376.438 ; gain = 238.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+ROM: Preliminary Mapping	Report
++----------------+-------------------------------+---------------+----------------+
+|Module Name     | RTL Object                    | Depth x Width | Implemented As | 
++----------------+-------------------------------+---------------+----------------+
+|ad9361_lut      | ad9361_lut_t                  | 8192x1        | LUT            | 
+|ad9361_test_top | u_ad9361_lut/ad9361_lut_t     | 8192x1        | LUT            | 
+|ad9361_test_top | u_ad9361_lut/ad9361_lut_t_reg | 4096x19       | Block RAM      | 
++----------------+-------------------------------+---------------+----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-565] redefining clock 'sys_clk'
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1376.438 ; gain = 238.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1376.438 ; gain = 238.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:19 ; elapsed = 00:00:19 . Memory (MB): peak = 1382.645 ; gain = 244.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1382.645 ; gain = 244.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1382.645 ; gain = 244.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1382.645 ; gain = 244.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1382.645 ; gain = 244.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1382.645 ; gain = 244.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1382.645 ; gain = 244.449
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++------+---------------+----------+
+|      |BlackBox name  |Instances |
++------+---------------+----------+
+|1     |mult_gen_0     |         2|
+|2     |cordic_0       |         1|
+|3     |clk_wiz_0      |         1|
+|4     |ila_0          |         1|
+|5     |dds_compiler_0 |         2|
++------+---------------+----------+
+
+Report Cell Usage: 
++------+----------------+------+
+|      |Cell            |Count |
++------+----------------+------+
+|1     |clk_wiz         |     1|
+|2     |cordic          |     1|
+|3     |dds_compiler    |     1|
+|4     |dds_compiler_0_ |     1|
+|5     |ila             |     1|
+|6     |mult_gen        |     1|
+|7     |mult_gen_0_     |     1|
+|8     |BUFG            |     2|
+|9     |CARRY4          |    44|
+|10    |IDDR            |     7|
+|11    |LUT1            |    27|
+|12    |LUT2            |    58|
+|13    |LUT3            |    41|
+|14    |LUT4            |    40|
+|15    |LUT5            |    65|
+|16    |LUT6            |    41|
+|17    |ODDR            |     8|
+|18    |RAMB18E1        |     1|
+|19    |RAMB36E1        |     2|
+|21    |FDCE            |   220|
+|22    |FDPE            |     4|
+|23    |FDRE            |   268|
+|24    |IBUF            |     1|
+|25    |IBUFDS          |     8|
+|26    |OBUF            |    15|
+|27    |OBUFDS          |     8|
++------+----------------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1382.645 ; gain = 244.449
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 1382.645 ; gain = 119.414
+Synthesis Optimization Complete : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1382.645 ; gain = 244.449
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1382.645 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 78 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-140] Inserted 1 IBUFs to IO ports without IO buffers.
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1392.438 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 8 instances were transformed.
+  OBUFDS => OBUFDS_DUAL_BUF (INV, OBUFDS(x2)): 8 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+69 Infos, 9 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:26 . Memory (MB): peak = 1392.438 ; gain = 254.242
+INFO: [Common 17-1381] The checkpoint 'D:/FPGA_project/main_prj/prj/project_1.runs/synth_1/ad9361_test_top.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file ad9361_test_top_utilization_synth.rpt -pb ad9361_test_top_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Fri Sep 18 15:05:11 2026...

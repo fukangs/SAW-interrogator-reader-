@@ -1,0 +1,16 @@
+0.7
+2020.2
+Nov 18 2020
+09:47:47
+D:/FPGA_project/BIST/prj/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,1789004502,verilog,,D:/FPGA_project/BIST/rtl/ad9361_dev_if .v,,clk_wiz_0,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/FPGA_project/BIST/prj/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,1789004502,verilog,,D:/FPGA_project/BIST/prj/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v,,clk_wiz_0_clk_wiz,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/FPGA_project/BIST/prj/project_1.gen/sources_1/ip/dds_compiler_0/sim/dds_compiler_0.vhd,1789004981,vhdl,,,,dds_compiler_0,,,,,,,,
+D:/FPGA_project/BIST/prj/project_1.gen/sources_1/ip/ila_0/sim/ila_0.v,1789006267,verilog,,D:/FPGA_project/BIST/prj/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v,,ila_0,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/FPGA_project/BIST/prj/project_1.sim/sim_1/behav/xsim/glbl.v,1605673889,verilog,,,,glbl,,,,,,,,
+D:/FPGA_project/BIST/rtl/ad9361_dev_if .v,1787987003,verilog,,D:/FPGA_project/BIST/rtl/ad9361_init.v,,ad9361_dev_if,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/FPGA_project/BIST/rtl/ad9361_init.v,1788867014,verilog,,D:/FPGA_project/BIST/rtl/ad9361_lut.v,,ad9361_init,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/FPGA_project/BIST/rtl/ad9361_lut.v,1789003860,verilog,,D:/FPGA_project/BIST/rtl/ad9361_spi.v,,ad9361_lut,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/FPGA_project/BIST/rtl/ad9361_spi.v,1787969503,verilog,,D:/FPGA_project/BIST/rtl/dds.v,,ad9361_spi,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/FPGA_project/BIST/rtl/ad9361_test_top.v,1789008307,verilog,,,,ad9361_test_top,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/FPGA_project/BIST/rtl/dds.v,1787967323,verilog,,D:/FPGA_project/BIST/rtl/dds_freq.v,,dds,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,
+D:/FPGA_project/BIST/rtl/dds_freq.v,1788180760,verilog,,D:/FPGA_project/BIST/rtl/ad9361_test_top.v,,dds_freq,,,../../../../project_1.gen/sources_1/ip/clk_wiz_0,,,,,

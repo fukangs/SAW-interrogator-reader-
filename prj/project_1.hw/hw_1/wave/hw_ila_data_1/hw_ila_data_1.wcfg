@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="D:/FPGA_project/main_prj/prj/project_1.hw/hw_1/wave/hw_ila_data_1/hw_ila_data_1.wdb" id="1">
+         <top_modules>
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="2036fs"></ZoomStartTime>
+      <ZoomEndTime time="12772fs"></ZoomEndTime>
+      <Cursor1Time time="7036fs"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="227"></NameColumnWidth>
+      <ValueColumnWidth column_width="84"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="5" />
+   <wave_markers>
+   </wave_markers>
+   <wvobject fp_name="adc_data_out_q1_t1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">adc_data_out_q1_t1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data_out_q1_t1[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="adc_data_out_i1_t1" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">adc_data_out_i1_t1[11:0]</obj_property>
+      <obj_property name="ObjectShortName">adc_data_out_i1_t1[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+   </wvobject>
+   <wvobject fp_name="ctrl_pin2_OBUF" type="logic">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">ctrl_pin2_OBUF</obj_property>
+      <obj_property name="ObjectShortName">ctrl_pin2_OBUF</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+      <obj_property name="WaveformStyle">STYLE_DIGITAL</obj_property>
+   </wvobject>
+   <wvobject fp_name="sqrt_data" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">sqrt_data[13:0]</obj_property>
+      <obj_property name="ObjectShortName">sqrt_data[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+   <wvobject fp_name="avg_data" type="array">
+      <obj_property name="DisplayName">FullPathName</obj_property>
+      <obj_property name="ElementShortName">avg_data[13:0]</obj_property>
+      <obj_property name="ObjectShortName">avg_data[13:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+      <obj_property name="WaveformStyle">STYLE_ANALOG</obj_property>
+      <obj_property name="CellHeight">100</obj_property>
+      <obj_property name="LABELRADIX">true</obj_property>
+   </wvobject>
+</wave_config>

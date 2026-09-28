@@ -1,0 +1,26 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_project/BIST/prj/project_1.gen/sources_1/ip/ila_0/sim/ila_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ila_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_project/BIST/prj/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_project/BIST/prj/project_1.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_project/BIST/rtl/ad9361_dev_if .v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ad9361_dev_if
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_project/BIST/rtl/ad9361_init.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ad9361_init
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_project/BIST/rtl/ad9361_lut.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ad9361_lut
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_project/BIST/rtl/ad9361_spi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ad9361_spi
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_project/BIST/rtl/dds.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dds
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_project/BIST/rtl/dds_freq.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dds_freq
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_project/BIST/rtl/ad9361_test_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ad9361_test_top
+INFO: [VRFC 10-2458] undeclared symbol dac_r1_mode, assumed default net type wire [D:/FPGA_project/BIST/rtl/ad9361_test_top.v:117]
+INFO: [VRFC 10-2458] undeclared symbol adc_r1_mode, assumed default net type wire [D:/FPGA_project/BIST/rtl/ad9361_test_top.v:118]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_project/BIST/prj/project_1.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/FPGA_project/BIST/prj/project_1.gen/sources_1/ip/dds_compiler_0/sim/dds_compiler_0.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'dds_compiler_0'
